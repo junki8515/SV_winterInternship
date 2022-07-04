@@ -1,0 +1,1 @@
+# This folder holds materials for rendering HTML.

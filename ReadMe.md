@@ -1,0 +1,1 @@
+# This folder shows the search results through the program.

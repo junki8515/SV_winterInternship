@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Simple Sidebar - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+
+    </head>
+    <body>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/">Main</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/simpleSearch">Simple search</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/AdvancedSearch">Advanced search</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/AppleSearch">Apple search</a>
+                </div>
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li class="nav-item"><a class="nav-link" href="https://sv-intern-2021.atlassian.net/wiki/spaces/2021WIN/overview">Developer notes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Page content-->
+                <div class="container-fluid">
+                    <h1 class="mt-4">Patent search service</h1>
+                    <p>This page provides three patent search functions.</p>
+                    <p>The information shown below is a brief description of the functions.</p>
+                    <p>Also, the information obtained through the search can be downloaded as an Excel file.</p>
+                    <br>
+                    <h4 class="mt-4">
+                        Simple search
+                    </h4>
+                    <p>Simple patent search can store data at high speed through static crawling.
+                        The detailed functions of each function will be explained through sub-items.</p>
+                    <br>
+                    <h4 class="mt-4">
+                        Advanced search
+                    </h4>
+                    <p>The detailed search function performs dynamic crawling using Selenium, which is relatively slow, but performs a more powerful function.
+                        The detailed functions of each function will be explained through sub-items.</p>
+                    <br>
+                    <h4 class="mt-4">
+                        Apple search
+                    </h4>
+                    <p>Search Patently Apple function uses dynamic crawling to collect article titles and link information from Patently Apple website. It returned in the form of a data frame.
+                        <br>
+                        Although the information collection speed is slower than static crawling, there is little limit to the collection target because continuous work is possible.
+                        <br>
+                        Since dynamic crawling is utilized, information on all pages for search keywords can be collected.
+                        The detailed functions of each function will be explained through sub-items.</p>
+                    
+                    <p>
+                        <form action="/simplesearchresult" method="get">
+                            <input type="text" place="What job do you want?" required name="search" />
+                            <button>submit</button>
+                          </form>
+                    </p>
+                    <p>
+                        <form action="." method="post">
+                            <input type="checkbox" name="foo">
+                            <input type="checkbox" name="foo">
+                            <input type="checkbox" name="foo">
+                            <input type="submit" value="submit">
+                          </form>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        
+        <!-- Core theme JS-->
+
+    </body>
+</html>
