@@ -17,7 +17,14 @@
 ### 3. System overview
 
 본 프로젝트의 개요는 다음과 같습니다.
-
+![system flow chart](https://user-images.githubusercontent.com/84506968/177123147-ef50036b-df55-4852-84d8-f694aea4d0ed.png)
+먼저 시스템의 flow chart는 위의 그림과 같습니다.
+크게는 3개의 기능으로 구성되어있습니다.
+Google patent의 단순검색, 세부검색 그리고 apple patent에 키워드 검색으로 구성되어 있습니다.
+또한 각각의 함수들은 실행시에 더 많은 시간이 소요되기 때문에 선택적으로 필요한 함수들만을 실행할 수 있습니다.
+![system activity diagram](https://user-images.githubusercontent.com/84506968/177123506-3730b11a-7273-4b3f-87fa-c0b8a94e2b55.png)
+다음으로는 저희가 설계한 system activity diagram입니다.
+User들은 webpage에 접속해서 해당 함수들을 사용할 수 있습니다.
 
 
 ### 4. File Description
