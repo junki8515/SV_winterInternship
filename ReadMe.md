@@ -30,7 +30,7 @@
 
 ### 4. File Description
 
-![image](https://user-images.githubusercontent.com/84506968/176116697-aed4abe5-020c-4aaf-9a3e-ae9c0b08745f.png)
+![image](https://user-images.githubusercontent.com/84506968/177119727-ada8a70b-c538-41e4-98da-4f01499b5750.png)
 
 ​	**(1)** **hardware** : End effector제작을 위해 필요한 CAD-files
 
